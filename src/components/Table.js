@@ -25,7 +25,7 @@ export default function Table() {
           <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border-b border-b-border py-3 text-xs capitalize border-l-0 -border border-r-0 whitespace-nowrap font-regular text-left">
             Quantity
           </th>
-          <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border-b border-b-border py-3 text-xs capitalize border-l-0  -border border-r-0 whitespace-nowrap font-regular text-left">
+          <th className="lg:visible px-6 bg-blueGray-50 text-blueGray-500 align-middle border-b border-b-border py-3 text-xs capitalize border-l-0  -border border-r-0 whitespace-nowrap font-regular text-left">
             Unit Price
           </th>
           <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border-b border-b-border py-3 text-xs capitalize border-l-0  -border border-r-0 whitespace-nowrap font-regular text-left">

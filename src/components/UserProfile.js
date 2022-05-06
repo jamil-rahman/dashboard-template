@@ -5,11 +5,11 @@ export default function UserProfile() {
     <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
       <button
         type="button"
-        class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+        className="bg-gray-800 p-1 rounded-full text-gray-400  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
       >
         {/* <!-- Heroicon name: outline/bell --> */}
         <svg
-          class="h-6 w-6"
+          className="h-5 w-5"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
@@ -26,11 +26,11 @@ export default function UserProfile() {
       </button>
 
       {/* <!-- Profile dropdown --> */}
-      <div class="ml-3 relative flex justify-between">
+      <div class="ml-3 relative flex justify-center">
         <div>
           <button
             type="button"
-            class="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+            className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
             id="user-menu-button"
             aria-expanded="false"
             aria-haspopup="true"
@@ -45,20 +45,11 @@ export default function UserProfile() {
           </button>
           
         </div>
-        <span className="ml-2 flex items-center justify-center font-body">John Doe </span>
+        <span className="ml-2 whitespace-nowrap flex items-center font-body">John Doe </span>
       </div>
     
     <button>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-4 w-4 m-2"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        strokeWidth={4}
-      >
-        <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-      </svg>
+    <i className="fa fa-caret-down ml-2"></i>
       </button>
     </div>
   );

@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Searchbar() {
   return (
-    <form action="" className="max-w-[392px] sm:invisible md:visible">
-        <div className="relative flex items-center text-neutral-800 focus-within:text-neutral-800">
+    <form action="" className="max-w-[392px] sm:invisible md:visible ">
+        <div className="relative flex items-center text-neutral-800  focus-within:text-neutral-800">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 absolute ml-3 pointer-events-none"
@@ -24,7 +24,7 @@ export default function Searchbar() {
             placeholder="Search"
             autocomplete="off"
             aria-label="search bar"
-            className="bg-background w-full pr-3 pl-10 py-2 font-body font-semibold placeholder-neutral-800 text-black rounded-2xl border-none ring-2 ring-neutral-800 focus:ring-neutral-800 focus:ring-2"
+            className="bg-background w-full pr-3 pl-10 py-2 font-body font-semibold placeholder-neutral-800 text-black rounded-md ring-0 ring-neutral-800 focus:ring-neutral-800 focus:ring-2"
           />
         </div>
       </form>
