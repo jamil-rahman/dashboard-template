@@ -4,7 +4,7 @@ import PageTitle from "../components/PageTitle";
 import Sidebar from "../components/Sidebar";
 function Inventory() {
   return (
-    <div className="bg-background">
+    <div className="bg-background overflow-y-auto shadow">
       <Navbar />
       <div className="flex">
         <div className="lg:flex lg:min-h-screen md:flex md:min-h-screen sm:flex sm:min-h-screen">
