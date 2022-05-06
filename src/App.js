@@ -1,15 +1,13 @@
-import Navbar from "./components/Navbar";
+import Inventory from "./views/Inventory";
 
 function App() {
   return (
     <>
-    <Navbar />
-    <div className="h-full p-0 bg-background">
-    Hi mom
-   
+    <Inventory />
+    
       
         
-    </div>
+    
     </>
   );
 }
