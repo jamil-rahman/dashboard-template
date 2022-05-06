@@ -3,11 +3,7 @@ import Inventory from "./views/Inventory";
 function App() {
   return (
     <>
-    <Inventory />
-    
-      
-        
-    
+      <Inventory />
     </>
   );
 }

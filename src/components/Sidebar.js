@@ -2,8 +2,7 @@ import React from "react";
 
 export default function Sidebar() {
   return (
-    // <div className="lg:w-48 md:w-20 bg-background border-r-border border-r ">
-      <>
+    <>
       <a
         href="#home"
         className="lg:flex lg:items-center lg:p-4 lg:mb-2 lg:mt-4 md:block md:mt-4 md:ml-6 sm:block sm:mt-4 sm:ml-6 sm:items-center text-neutral-100"
@@ -64,7 +63,7 @@ export default function Sidebar() {
             d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
           />
         </svg>
-       <span className="md:invisible lg:visible sm:invisible"> Documents</span>
+        <span className="md:invisible lg:visible sm:invisible"> Documents</span>
       </a>
 
       <a
@@ -92,7 +91,7 @@ export default function Sidebar() {
         </svg>
         <span className="md:invisible lg:visible sm:invisible">Settings</span>
       </a>
-      </>
+    </>
     // </div>
   );
 }

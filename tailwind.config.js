@@ -12,6 +12,7 @@ module.exports = {
       primary: "#00C614",
       neutral: {
         100: "#6B6C72",
+        500: '#B2B2B6',
         800: "#88898E",
         900: "#3E3F48",
       },
