@@ -1,12 +1,14 @@
+import UserProfile from "./UserProfile";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between bg-white items-center w-full h-24 mx-auto px-4 text-black">
+    <div className="flex justify-around bg-white items-center w-full h-24 mx-auto px-4 text-black">
       <h2 className="w-full text-2xl font-body">Starbucks</h2>
 
       {/* Searchbar */}
-      <form action="" className='max-w-[392px] sm:invisible md:visible'>
-        <div className='relative flex items-center text-neutral-800 focus-within:text-neutral-800'>
+
+      <form action="" className="max-w-[392px] sm:invisible md:visible">
+        <div className="relative flex items-center text-neutral-800 focus-within:text-neutral-800">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 absolute ml-3 pointer-events-none"
@@ -32,8 +34,9 @@ export default function Navbar() {
         </div>
       </form>
 
-
-
+      <div>
+        <UserProfile />
+      </div>
     </div>
   );
 }
